@@ -1,0 +1,23 @@
+Projeto - pacotes - classe - Função (void)
+
+Inteiro - int / long
+Real - double(arredonda) / float(mostra as casas das vígulas)
+Caracter - String 
+-----------------------------------------------------------------
+
+Scanner grava = new Scanner(System.in);
+-----------------------------------------------------------------
+Soma com 2 valores digitados, mostrando o resultado.
+
+Scanner grava = new Scanner(System.in);
+         double valor1 , valor2, resultado;
+         
+        System.out.println("Digite o primeiro valor");
+        valor1 = grava.nextDouble() ;
+        
+        System.out.println("Digite o segundo valor");
+        valor2 = grava.nextDouble() ;
+        
+        resultado = valor1 + valor2;
+        System.out.println("O resultado é \n" + resultado);
+--------------------------------------------------------------------

@@ -1,0 +1,41 @@
+
+
+02/08/2022
+
+CLASSE - pode possuir várias funções (VOID)
+
+	Pública - qq um pode acessar (PUBLIC) 
+	Privada	- só vc (PRIVATE) - NÃO IREMOS USAR NO CURSO
+	EXEMPLO: NOME.JAVA
+
+Public class helloWord
+
+As classes de abertura e fechamento se da através de: {  }
+
+
+public static vold main <<< Usa para chamar a primeira tela do sistema. (O próprio Netbeans insere essa linha)
+
+_____________________________________________________________
+Alguns tipos de variáveis
+
+INTEIRO - int/long se diferenciam pela quantidade de caracter
+
+REAL - double (arredonda para cima) / float (Mostra todas as casas decimais depois da vírgula) , interessante usar o double para espectativa de lucro.
+
+CARACTER - String (são palavras)
+
+	EXEMPLOS: int valor =0,
+		double valor1;
+		String teste = "fhjuieqh";
+
+
+
+
+
+
+
+
+
+
+
+
