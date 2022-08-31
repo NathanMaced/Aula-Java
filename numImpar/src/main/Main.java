@@ -17,20 +17,30 @@ public class Main {
         num++;
         rest=num%2;
         
-        if(rest != 0){
-        System.out.println(num); 
-        num++;
-        rest=num % 2;
+        switch (rest){
+            
+            case 1: if (rest!=0){
+            System.out.println(num); 
+            num++;
+            rest=num%2;
+            }
+            break;
+        
+            default:
+                System.out.println("Finalizado");
+            break;
         }
         
+        }
         
+        while (num < 200);
                 
         }
         
-        while (num > 200);
+        
         
         
         
     }
     
-}
+
