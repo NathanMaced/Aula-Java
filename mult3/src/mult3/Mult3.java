@@ -1,27 +1,24 @@
-
-package main;
+package mult3;
 
 import java.util.Scanner;
 
-public class Main {
 
-   
+public class Mult3 {
+
+    
     public static void main(String[] args) {
-        
         Scanner grava = new Scanner (System.in);
-        int num = 100;
-        int rest;
-        
+        int num = 0,rest;
         
         do{
         num++;
-        rest=num%2;
+        rest=num%3;
         
         switch (rest){
             
-            case 1: if (rest!=0){
-            System.out.println(num); 
+            case 1: if (rest<1){ 
             num++;
+            System.out.println(num); 
             
             }
             break;
@@ -33,10 +30,7 @@ public class Main {
         
         }
         
-        while (num < 200);
-                
-        }
-    
+        while (num <= 100);
     }
     
-
+}
